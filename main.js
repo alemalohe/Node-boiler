@@ -5,7 +5,6 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var path = require("path");
 var multer = require("multer");
-var bcrypt = require("bcrypt");
 var nodeMailer = require("nodemailer");
 var jwt = require("jsonwebtoken");
 const PORT = 5000;
